@@ -11,7 +11,7 @@ npm install
 ```
 3. Create a `.env` file in the root directory and add:
 ```
-PORT=3000
+PORT=5000
 NODE_ENV=development
 ```
 4. Start the server:
@@ -70,10 +70,10 @@ You can test the API using Postman or cURL. Example cURL commands.Recommended po
 
 ```bash
 # Get all users
-curl http://localhost:3000/api/users
+curl http://localhost:5000/api/users
 
 # Create new user
-curl -X POST http://localhost:3000/api/users \
+curl -X POST http://localhost:5000/api/users \
   -H "Content-Type: application/json" \
   -d '{"name": "John Plimo", "email": "john@example.com"}'
 ```
